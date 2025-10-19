@@ -2,8 +2,8 @@ import OpenAI from "openai";
 
 const openai = new OpenAI({ apiKey: process.env.OPENAI_API_KEY });
 
-//  the assistant_id from the dashboard for ITEC1375
-const ASSISTANT_ID = "asst_zsAC6t8WwRh34AFsFz5MZXVQ";
+//  the assistant_id from the dashboard for ITEC2120
+const ASSISTANT_ID = "asst_FneiesMReOIzaECKQxAPBULI";
 
 // Function to convert markdown to HTML
 function convertMarkdownToHtml(text) {
